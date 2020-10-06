@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+		#a {
+			text-align: center;
+		}
+		table,tr,td {
+			border: 1px solid;
+			border-collapse: collapse;
+		}
+		td {
+			padding: 20px;
+		}
+		.a1{
+			width: 20px;
+			height: 40px;
+		}
+		.a2{
+			width: 40px;
+			height: 40px;
+		}
+		.a3{
+			width: 20px;
+			height: 20px;
+		}
+	</style>
+</head>
+<body>
+	<h1>Information Form</h1>
+	<form action="" method="">
+		<p>
+			<label for="name">name</label>
+		  <input type="text" name="name" id="name">
+		</p>
+		<p>
+			<label for="p">pwd </label>&nbsp;
+		  <input type="password" name="pwd" id="p">
+		</p>
+		<p>
+			<label for="s">sex</label>
+		  <input type="radio" name="male" id="s" checked>
+		  <label for="s" se>male</label>
+		  <input type="radio" name="male" id="f">
+		  <label for="f">female</label>
+		</p>
+		<p>
+			<label for="pwd">age</label>
+		  <select name="geshu" id="geshu">
+				<option value="1" selected>1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+				<option value="5">5</option>
+			</select>
+		</p>
+		<p>
+			<label for="course">course</label>
+		  <input type="checkbox" name="course" id="chiness">
+		  <label for="chiness">Chiness</label>
+		  <input type="checkbox" name="course" id="Math">
+		  <label for="Math">Math</label>
+		  <input type="checkbox" name="course" id="English">
+		  <label for="English">English</label>
+		</p>
+		<p>
+			<input type="submit" value="Submit it!">
+			<input type="reset" value="Reset it!">
+		</p>
+	</form>
+	<hr>
+		<h1 id="a">会员注册表</h1>
+		<br>
+		<form action="" method="">
+			<p>
+				<label for="user">用户名：</label>
+				<input id="user" type="text" name="user" value="请输入姓名">
+			</p>
+			<p>
+				<label for="pwd">密码：&nbsp;&nbsp;&nbsp;</label>
+				<input id="pwd" type="password" name="pwd">
+			</p>
+			<p>
+				<label for="sex">性别:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+				<input type="radio" name="sex" id="boy">
+			  <label for="boy">男</label>
+			  <input type="radio" name="sex" id="girl">
+			  <label for="girl">女</label>
+			</p>
+			<p>
+				<label for="hobby">爱好:</label>
+				  <input type="checkbox" name="hobby" id="internet">
+			  <label for="internet">上网</label>
+			  <input type="checkbox" name="hobby" id="lan">
+			  <label for="lan">篮球</label>
+			  <input type="checkbox" name="hobby" id="zu">
+			  <label for="zu">足球</label>
+			  <input type="checkbox" name="hobby" id="guang">
+			  <label for="guang">逛街</label>
+			    <input type="checkbox" name="hobby" id="sing">
+			  <label for="sing">唱歌</label>
+			    <input type="checkbox" name="hobby" id="dance">
+			  <label for="dance">跳舞</label>
+			    <input type="checkbox" name="hobby" id="pai">
+			  <label for="pai">排球</label>
+			</p>
+			<tr>
+			 	<td>居住地：</td>
+			 	<td>
+			 		 <select>
+			 		 	 <option>~请选择~</option>
+			 		 	  <option>北京市</option>
+	            <option>天津市</option>
+	            <option>河北省</option>
+	            <option>山西省</option>
+	            <option>内蒙古</option>
+	            <option>辽宁省</option>
+	            <option>吉林省</option>
+			 		 </select>
+			 	</td>
+			 </tr>
+			 <p>
+				<label for="Tel">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tel：</label>
+				<input id="Tel" type="text" name="Tel">
+			</p>
+			<p>
+				<label for="E-mail">E-mail：</label>
+				<input id="E-mail" type="E-mail" name="Tel">
+			</p>
+			<p>
+				<label for="jj" class="a">备注
+					<textarea id="jj" name="jj" rows="9" cols="45"></textarea>
+				</label>
+			</p>
+			<p>
+				<input type="button" value="注册">
+				<input type="button" value="取消">
+			</p>
+		</form>
+		<hr>
+		<table>
+		<tr>
+			<td rowspan="2"></td>
+			<td rowspan="2"></td>
+			<td colspan="2"></td>
+		</tr>
+		<tr>
+			<td colspan="2"></td>
+		</tr>
+		<tr>
+			<td colspan="2"></td>
+			<td rowspan="2"></td>
+			<td rowspan="2"></td>
+		</tr>
+		<tr>
+			<td colspan="2"></td>
+		</tr>
+	</table>
+	<hr>
+		<table>
+		<tr>
+			<td colspan="2"></td>
+			<td rowspan="2"></td>
+		</tr>
+		<tr>
+			<td rowspan="2"></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td colspan="2"></td>
+		</tr>
+	</table>
+	<hr>
+		<table>
+				<tr>
+					<td rowspan="2" class="a1"></td>
+					<td rowspan="2" colspan="2" class="a2"></td>
+					<td rowspan ="2" class="a1"></td>
+				</tr>
+				<tr>
+				</tr>
+				<tr>
+					<td rowspan="2" class="a1"></td>
+					<td colspan="2"></td>
+					<td rowspan="2" class="a1"></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td></td>
+					</tr>
+				<tr>
+					<td class="a3"></td>
+					<td colspan="2"></td>
+					<td class="a3"></td>
+				</tr>
+			</table>
+</body>
+</html>
